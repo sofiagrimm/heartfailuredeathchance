@@ -56,7 +56,7 @@ print(cm)
 sns.heatmap(cm,annot=True)
 
 from sklearn.metrics import accuracy_score
-print(accuracy_score(Y_test, predictions)) #OVER THE COURSE OF MY WEEKEND, I SOLEMNLY SWEAR TO IMPROVE THIS SCORE — hyperparamater tuning
+print(accuracy_score(Y_test, predictions))
 
 print(Y_test)
 
